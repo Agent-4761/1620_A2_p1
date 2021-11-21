@@ -7,6 +7,22 @@ function cleanUpIndex() {
     contant_cleaner[i].parentElement.removeChild(contant_cleaner[i]);
 }
 
+// Second JavaScript function
+
+function createSingleIndex() {
+    const indexList = [  
+        "Barry Allen",
+        "Beverly Crusher",
+        "Diana Prince"  
+    ]
+    const element1 = document.querySelector('div');
+
+    element1.innerHTML =
+        '<a href="page3.html"><div class="contact"><p>' + indexList[0] + '</p></div></a>' 
+       
+    
+
+}
 
 // Third JavaScript function
 
